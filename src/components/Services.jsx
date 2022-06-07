@@ -1,4 +1,4 @@
-import { Announce, Cafeteria, Rss, Send } from "grommet-icons";
+import { Announce, Rss, Send } from "grommet-icons";
 import React from "react";
 
 const Services = () => {
