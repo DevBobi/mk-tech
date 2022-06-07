@@ -10,6 +10,9 @@ module.exports = {
       'indigo': '#644F9C',
       'slate': '#f8fafc',
       'slate-50': '#F2F2F2'
+    },
+    fontFamily: {
+    'font-family': ['PT Sans', 'sans-serif']
     }
   },
   plugins: [],

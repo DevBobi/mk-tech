@@ -1,8 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 .slick-dots {
     top: 20px !important;
     padding-bottom: 10px !important
+}
+body{
+    font-family: 'PT Sans', sans-serif;
 }

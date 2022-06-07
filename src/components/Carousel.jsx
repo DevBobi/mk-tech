@@ -9,13 +9,14 @@ const settings = {
   slidesToShow: 2,
   slidesToScroll: 1,
   initialSlide: 2,
+
 };
 
 const Carousel = () => {
   return (
     <div className="container mx-auto h-full drop-shadow-lg py-10">
       <Slider draggable {...settings} className="py-20">
-        <div className="py-10 px-3">
+        <div className="py-5 px-3">
           <div className="shadow-xl p-4 rounded-xl">
             <div className="flex border border-dashed border-orange rounded-xl shadow-md">
               <div class=" w-2/3 py-2 px-4">
@@ -34,7 +35,7 @@ const Carousel = () => {
             </div>
           </div>
         </div>
-        <div className="py-10 px-3">
+        <div className="py-5 px-3">
           <div className="shadow-xl p-4 rounded-xl">
             <div className="flex border border-dashed border-orange rounded-xl shadow-md">
               <div class=" w-2/3 py-2 px-4">
@@ -53,7 +54,7 @@ const Carousel = () => {
             </div>
           </div>
         </div>
-        <div className="py-10 px-3">
+        <div className="py-5 px-3">
           <div className="shadow-xl p-4 rounded-xl">
             <div className="flex border border-dashed border-orange rounded-xl shadow-md">
               <div class=" w-2/3 py-2 px-4">
