@@ -25,10 +25,12 @@ const Carousel = () => {
                   src="https://dummyimage.com/720x600"
                 />
               </div>
-              <h3 className="py-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Debitis, doloribus eveniet natus veniam ratione porro.
-              </h3>
+              <div className="p-1">
+                <h3 className="py-2">Title 1</h3>
+                <h3 className="pt-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit
+                </h3>
+              </div>
             </div>
           </div>
         </div>
@@ -42,10 +44,12 @@ const Carousel = () => {
                   src="https://dummyimage.com/720x600"
                 />
               </div>
-              <h3 className="py-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Debitis, doloribus eveniet natus veniam ratione porro.
-              </h3>
+              <div className="p-1">
+                <h3 className="py-2">Title 1</h3>
+                <h3 className="pt-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit
+                </h3>
+              </div>
             </div>
           </div>
         </div>
@@ -59,10 +63,12 @@ const Carousel = () => {
                   src="https://dummyimage.com/720x600"
                 />
               </div>
-              <h3 className="py-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Debitis, doloribus eveniet natus veniam ratione porro.
-              </h3>
+              <div className="p-1">
+                <h3 className="py-2">Title 1</h3>
+                <h3 className="pt-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit
+                </h3>
+              </div>
             </div>
           </div>
         </div>
