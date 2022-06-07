@@ -14,13 +14,13 @@ const Services = () => {
             Lorem ipsum dolor sit amet.
           </p>
 
-          <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 mx-auto md:grid-cols-2 xl:grid-cols-3">
+          <div className="grid grid-cols-1 gap-8 mt-8 xl: mx-auto md:grid-cols-2 xl:grid-cols-3">
             <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
               <div className="flex flex-col justify-center items-center m-2 lg:m-6 drop-shadow-md bg-slate rounded-full h-44 w-44">
                 <Announce color="#0062cc" size="xlarge" />
               </div>
 
-              <h1 className="mt-3 text-2xl font-normal py-4 text-gray-700 capitalize dark:text-white group-hover:text-white">
+              <h1 className="text-2xl font-normal pb-3 text-gray-700 capitalize dark:text-white group-hover:text-white">
                 Text 1
               </h1>
 
@@ -37,7 +37,7 @@ const Services = () => {
                 <Send color="#0062cc" size="xlarge" />
               </div>
 
-              <h1 className="mt-3 text-2xl font-normal py-4 text-gray-700 capitalize dark:text-white group-hover:text-white">
+              <h1 className="text-2xl font-normal pb-3 text-gray-700 capitalize dark:text-white group-hover:text-white">
                 Text 1
               </h1>
 
@@ -54,7 +54,7 @@ const Services = () => {
                 <Rss color="#0062cc" size="xlarge" />
               </div>
 
-              <h1 className="mt-3 text-2xl font-normal py-4 text-gray-700 capitalize dark:text-white group-hover:text-white">
+              <h1 className="text-2xl font-normal pb-3 text-gray-700 capitalize dark:text-white group-hover:text-white">
                 Text 1
               </h1>
 

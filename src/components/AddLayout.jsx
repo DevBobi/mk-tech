@@ -7,7 +7,7 @@ import Skim from "./Skim";
 const AddLayout = () => {
   const [active, setActive] = useState("Pop Under");
   return (
-    <div className="mt-7">
+    <div className="pt-16 bg-slate">
       <div className="flex lg:px-5 justify-center rounded divide-indigo lg:gap-20 sm:gap-10 md:gap-10 md:mx-3">
         <button
           onClick={() => {

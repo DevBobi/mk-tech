@@ -17,7 +17,7 @@ const Header = () => {
         
           {/* ::Avatar */}
           <div className="hidden sm:inline-flex ml-auto md:ml-0 mr-4 md:mr-0 cursor-pointer">
-           <button className="text-cyan"><span>Bn /</span> <span className="text-dark">En</span></button>
+           <button><span className="text-dark hover:text-cyan">Bn </span> <span className="text-dark hover:text-cyan">/En</span></button>
           </div>
         </div>
       </header>
