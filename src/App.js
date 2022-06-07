@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Services from './components/Services';
+import Carousel from './components/Carousel';
 import Stats from './components/Stats';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Services/>
       <Stats/>
       <AddLayout/>
+      <Carousel/>
       <Footer/>
     </div>
   );
