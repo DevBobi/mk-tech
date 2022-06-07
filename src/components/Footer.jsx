@@ -7,10 +7,9 @@ const Footer = () => {
         <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
-              <span className="block w-32 h-10 bg-gray-200 rounded-lg">Follow Us</span>
-              <p className="max-w-xs mt-4 text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas, accusantium.
+              <span className="block w-32 h-10 text-indigo rounded-lg">We Are Social</span>
+              <p className="max-w-xs mt-2 text-lg text-gray-500">
+               Follow Us
               </p>
 
               <div className="flex mt-8 space-x-6 text-gray-500">
@@ -78,95 +77,68 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-3">
               <div>
-                <p className="font-medium">Company</p>
+                <p className="font-normal text-indigo">Links</p>
 
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75 uppercase font-medium" href="#">
                     {" "}
-                    About{" "}
+                    Advertisers{" "}
                   </a>
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75 uppercase font-medium" href="#">
                     {" "}
-                    Meet the Team{" "}
+                    Publishers{" "}
                   </a>
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75 uppercase font-medium" href="#">
                     {" "}
-                    History{" "}
+                    Influencers{" "}
                   </a>
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75 uppercase font-medium" href="#">
                     {" "}
-                    Careers{" "}
+                    Ad Formats{" "}
                   </a>
                 </nav>
               </div>
 
               <div>
-                <p className="font-medium">Services</p>
+                <p className="font-normal text-indigo">Documentation</p>
 
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75 uppercase font-medium" href="#">
                     {" "}
-                    1on1 Coaching{" "}
+                   Terms and Conditions{" "}
                   </a>
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75 uppercase font-medium" href="#">
                     {" "}
-                    Company Review{" "}
+                    Privacy and Policy{" "}
                   </a>
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75 uppercase font-medium" href="#">
                     {" "}
-                    Accounts Review{" "}
+                    Cancelation Policy{" "}
                   </a>
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75 uppercase font-medium" href="#">
                     {" "}
-                    HR Consulting{" "}
-                  </a>
-                  <a className="hover:opacity-75" href="#">
-                    {" "}
-                    SEO Optimisation{" "}
+                    Blog{" "}
                   </a>
                 </nav>
               </div>
 
               <div>
-                <p className="font-medium">Helpful Links</p>
+                <p className="font-normal text-indigo">Support</p>
 
                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75 uppercase" href="#">
                     {" "}
-                    Contact{" "}
+                    FAQ{" "}
                   </a>
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75 uppercase" href="#">
                     {" "}
-                    FAQs{" "}
+                    Meida Kit{" "}
                   </a>
-                  <a className="hover:opacity-75" href="#">
+                  <a className="hover:opacity-75 uppercase" href="#">
                     {" "}
-                    Live Chat{" "}
-                  </a>
-                </nav>
-              </div>
-
-              <div>
-                <p className="font-medium">Legal</p>
-
-                <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                  <a className="hover:opacity-75" href="#">
-                    {" "}
-                    Privacy Policy{" "}
-                  </a>
-                  <a className="hover:opacity-75" href="#">
-                    {" "}
-                    Terms & Conditions{" "}
-                  </a>
-                  <a className="hover:opacity-75" href="#">
-                    {" "}
-                    Returns Policy{" "}
-                  </a>
-                  <a className="hover:opacity-75" href="#">
-                    {" "}
-                    Accessibility{" "}
+                    Contact Us{" "}
                   </a>
                 </nav>
               </div>

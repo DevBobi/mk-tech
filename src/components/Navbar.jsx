@@ -31,25 +31,25 @@ const Navbar = () => {
           <div className="hidden sm:inline-flex mr-auto md:mr-4 ml-4 md:ml-0 cursor-pointer"></div>
           {/* ::Navbar */}
           <nav className="hidden md:mr-auto md:flex flex-wrap items-center justify-center text-base tracking-wide uppercase">
-            <a href="#link" className="mr-8 text-indigo hover:text-orange">
+            <a href="#link" className="mr-5 text-indigo hover:text-orange">
               Home
             </a>
-            <a href="#link" className="mr-8 text-indigo hover:text-orange">
+            <a href="#link" className="mr-5 text-indigo hover:text-orange">
               Advertiser
             </a>
-            <a href="#link" className="mr-8 text-indigo hover:text-orange">
+            <a href="#link" className="mr-5 text-indigo hover:text-orange">
               Publisher
             </a>
-            <a href="#link" className="mr-8 text-indigo hover:text-orange">
+            <a href="#link" className="mr-5 text-indigo hover:text-orange">
               Influencer
             </a>
-            <a href="#link" className="mr-8 text-indigo hover:text-orange">
+            <a href="#link" className="mr-5 text-indigo hover:text-orange">
               Ad Formats
             </a>
-            <a href="#link" className="mr-8 text-indigo hover:text-orange">
+            <a href="#link" className="mr-5 text-indigo hover:text-orange">
               Blog
             </a>
-            <a href="#link" className="mr-8 text-indigo hover:text-orange">
+            <a href="#link" className="mr-5 text-indigo hover:text-orange">
               Contact Us
             </a>
           </nav>

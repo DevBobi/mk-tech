@@ -8,18 +8,18 @@ const AddLayout = () => {
   const [active, setActive] = useState("Pop Under");
   return (
     <div className="mt-7">
-      <div className="flex divide-x-2 justify-center rounded dark:text-gray-100 divide-indigo gap-10">
+      <div className="flex lg:px-5 justify-center rounded divide-indigo lg:gap-20 sm:gap-10 md:gap-10 md:mx-3">
         <button
           onClick={() => {
             setActive("Pop Under");
           }}
           type="button"
           className={
-            active === 'Pop Under' ? "px-3 py-1.5 bg-orange border-0 rounded transition duration-500" :
-            "px-3 py-1.5 bg-slate border-0 rounded"
+            active === 'Pop Under' ? "lg:px-5 py-1.5 bg-orange rounded-full uppercase transition duration-500 drop-shadow-md" :
+            "lg:px-5 py-1.5 bg-slate rounded-full uppercase drop-shadow-md"
           }
         >
-          Pop Under
+         Pop Under
         </button>
         <button
           onClick={() => {
@@ -27,8 +27,8 @@ const AddLayout = () => {
           }}
           type="button"
           className={
-            active === 'Banner Ad' ? "px-3 py-1.5 bg-orange border-0 rounded transition duration-500" :
-            "px-3 py-1.5 bg-slate border-0 rounded"
+            active === 'Banner Ad' ? "lg:px-5 py-1.5 bg-orange rounded-full uppercase transition duration-500 drop-shadow-md" :
+            "lg:px-5 py-1.5 bg-slate rounded-full uppercase drop-shadow-md"
           }
         >
           Banner Ad
@@ -39,8 +39,8 @@ const AddLayout = () => {
           }}
           type="button"
           className={
-            active === 'Native' ? "px-3 py-1.5 bg-orange border-0 rounded transition duration-500" :
-            "px-3 py-1.5 bg-slate border-0 rounded"
+            active === 'Native' ? "lg:px-5 py-1.5 bg-orange rounded-full uppercase transition duration-500 drop-shadow-md" :
+            "lg:px-5 py-1.5 bg-slate rounded-full uppercase drop-shadow-md"
           }
         >
           Native
@@ -51,8 +51,8 @@ const AddLayout = () => {
           }}
           type="button"
           className={
-            active === 'Skim' ? "px-3 py-1.5 bg-orange border-0 rounded transition duration-500" :
-            "px-3 py-1.5 bg-slate border-0 rounded"
+            active === 'Skim' ? "lg:px-5 py-1.5 bg-orange rounded-full uppercase transition duration-500 drop-shadow-md" :
+            "lg:px-5 py-1.5 bg-slate rounded-full uppercase drop-shadow-md"
           }
         >
           Skim
